@@ -1,0 +1,77 @@
+
+h1 {
+    background-image: url(https://img.freepik.com/free-vector/black-gold-marble-texture_125540-835.jpg?w=900&t=st=1665104656~exp=1665105256~hmac=3b5a35f304846b9b11b2ee9c51fc9397d5d5d2f9e43279670e07fa699215e534);
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    
+}
+
+.fa-plus {
+    float: right;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2304&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Khand';
+}
+
+li {
+    background: #f7f7f7;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+span {
+    background: #f7f7f7;
+    height: 30px;
+    margin-right: 20px;
+    text-align: center;
+    color: slategrey;
+    display: inline-block;
+    width: 0;
+    transition: 0.2s linear;
+}
+
+li:hover span {
+    width: 30px;
+    opacity: 1.0;
+}
+
+input {
+    font-size: 18px;
+    background: #f7f7f7;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+    background: transparent;
+    border: 1px solid slategray;
+    outline: none;
+}
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background: transparent;
+    box-shadow: 0 0 3px rgba(0,0,0,0);
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
